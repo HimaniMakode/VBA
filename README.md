@@ -1,2 +1,2 @@
 # VBA
-VBA for Stock Data
+VBA scripting to analyze real stock market data
