@@ -56,14 +56,14 @@ Dim WS As Worksheet
                     Cells(Row, Column + 10).Value = Percent_Change
                     Cells(Row, Column + 10).NumberFormat = "0.00%"
                 End If
-                ' Add Total Volumn
+                ' Add Total Volume
                 Volume = Volume + Cells(i, Column + 6).Value
                 Cells(Row, Column + 11).Value = Volume
                 ' Add one to the summary table row
                 Row = Row + 1
                 ' reset the Open Price
                 Open_Price = Cells(i + 1, Column + 2)
-                ' reset the Volumn Total
+                ' reset the Volume Total
                 Volume = 0
             'if cells are the same ticker
             Else
